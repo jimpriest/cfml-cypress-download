@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  cfml:
+    container_name: cfml
+    image: ortussolutions/commandbox:adobe2018
+    environment:
+      cfconfig_adminPassword: password
+      cfconfigfile: myconfig.json
+    ports:
+      - "80:8080"
+    volumes:
+      - ~/cfml-cypress-download/app:/app
+
+  
