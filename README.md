@@ -15,8 +15,8 @@ This example is using a dynamically delivered file using the ColdFusion cfconten
 
 ## Setup
 
-This will start a ColdFusion instance in Docker on port 8080. There 
-is a simple form which can be used for Cypress test.
+This will start a ColdFusion instance in Docker on port 88. There 
+is a simple download link which can be used for Cypress test.
 
 docker-compose up
 
