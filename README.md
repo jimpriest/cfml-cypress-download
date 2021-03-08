@@ -20,9 +20,9 @@ is a simple download link which can be used for Cypress test.
 
 docker-compose up
 
-App: http://localhost:88/
-CFAdmin: http://localhost/CFIDE/administrator
-CFAdmin login is admin / password.
+* App: http://localhost:88/
+* CFAdmin: http://localhost/CFIDE/administrator
+* CFAdmin login is admin / password.
 
 If you need to alter the port simply edit the docker-compose.yml file.
 
